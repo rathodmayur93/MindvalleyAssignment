@@ -15,6 +15,26 @@
 		77127BEB23C8506D008DACC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77127BE923C8506D008DACC7 /* LaunchScreen.storyboard */; };
 		77127BF623C8506D008DACC7 /* MindvalleyAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127BF523C8506D008DACC7 /* MindvalleyAssignmentTests.swift */; };
 		77127C0123C8506D008DACC7 /* MindvalleyAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C0023C8506D008DACC7 /* MindvalleyAssignmentUITests.swift */; };
+		77127C1323C850D0008DACC7 /* PinListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1123C850D0008DACC7 /* PinListService.swift */; };
+		77127C1423C850D0008DACC7 /* PinListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1223C850D0008DACC7 /* PinListRequest.swift */; };
+		77127C1723C850E1008DACC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1623C850E1008DACC7 /* Constants.swift */; };
+		77127C2223C850F2008DACC7 /* PinItemLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1923C850F2008DACC7 /* PinItemLinks.swift */; };
+		77127C2323C850F2008DACC7 /* CategoryLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1A23C850F2008DACC7 /* CategoryLinks.swift */; };
+		77127C2423C850F2008DACC7 /* PinItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1B23C850F2008DACC7 /* PinItems.swift */; };
+		77127C2523C850F2008DACC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1C23C850F2008DACC7 /* User.swift */; };
+		77127C2623C850F2008DACC7 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1D23C850F2008DACC7 /* Title.swift */; };
+		77127C2723C850F2008DACC7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1E23C850F2008DACC7 /* Category.swift */; };
+		77127C2823C850F2008DACC7 /* UserLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C1F23C850F2008DACC7 /* UserLinks.swift */; };
+		77127C2923C850F2008DACC7 /* PinUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C2023C850F2008DACC7 /* PinUrls.swift */; };
+		77127C2A23C850F2008DACC7 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77127C2123C850F2008DACC7 /* ProfileImage.swift */; };
+		77127C2C23C85153008DACC7 /* MindvalleyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77127C0E23C850B6008DACC7 /* MindvalleyFramework.framework */; };
+		77127C2D23C85153008DACC7 /* MindvalleyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77127C0E23C850B6008DACC7 /* MindvalleyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		777544BF23C9B798006CA47F /* PinItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777544BD23C9B798006CA47F /* PinItemCollectionViewCell.swift */; };
+		777544C023C9B798006CA47F /* PinItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777544BE23C9B798006CA47F /* PinItemCollectionViewCell.xib */; };
+		777544C323C9BC5E006CA47F /* MindValleyBoardCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777544C223C9BC5E006CA47F /* MindValleyBoardCustomLayout.swift */; };
+		777A64E723C9C15900E81DAA /* PinImageDownloadingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A64E523C9C15900E81DAA /* PinImageDownloadingRequest.swift */; };
+		777A64E823C9C15900E81DAA /* PinImageDownloadingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A64E623C9C15900E81DAA /* PinImageDownloadingService.swift */; };
+		777A64EA23C9C24000E81DAA /* AllExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A64E923C9C24000E81DAA /* AllExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		77127C2E23C85153008DACC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77127C2D23C85153008DACC7 /* MindvalleyFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		77127BDB23C8506A008DACC7 /* MindvalleyAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindvalleyAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77127BDE23C8506A008DACC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,25 @@
 		77127BFC23C8506D008DACC7 /* MindvalleyAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindvalleyAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77127C0023C8506D008DACC7 /* MindvalleyAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindvalleyAssignmentUITests.swift; sourceTree = "<group>"; };
 		77127C0223C8506D008DACC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77127C0E23C850B6008DACC7 /* MindvalleyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MindvalleyFramework.framework; sourceTree = "<group>"; };
+		77127C1123C850D0008DACC7 /* PinListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinListService.swift; sourceTree = "<group>"; };
+		77127C1223C850D0008DACC7 /* PinListRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinListRequest.swift; sourceTree = "<group>"; };
+		77127C1623C850E1008DACC7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77127C1923C850F2008DACC7 /* PinItemLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinItemLinks.swift; sourceTree = "<group>"; };
+		77127C1A23C850F2008DACC7 /* CategoryLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryLinks.swift; sourceTree = "<group>"; };
+		77127C1B23C850F2008DACC7 /* PinItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinItems.swift; sourceTree = "<group>"; };
+		77127C1C23C850F2008DACC7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		77127C1D23C850F2008DACC7 /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		77127C1E23C850F2008DACC7 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		77127C1F23C850F2008DACC7 /* UserLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLinks.swift; sourceTree = "<group>"; };
+		77127C2023C850F2008DACC7 /* PinUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinUrls.swift; sourceTree = "<group>"; };
+		77127C2123C850F2008DACC7 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		777544BD23C9B798006CA47F /* PinItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		777544BE23C9B798006CA47F /* PinItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		777544C223C9BC5E006CA47F /* MindValleyBoardCustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindValleyBoardCustomLayout.swift; sourceTree = "<group>"; };
+		777A64E523C9C15900E81DAA /* PinImageDownloadingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinImageDownloadingRequest.swift; sourceTree = "<group>"; };
+		777A64E623C9C15900E81DAA /* PinImageDownloadingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinImageDownloadingService.swift; sourceTree = "<group>"; };
+		777A64E923C9C24000E81DAA /* AllExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77127C2C23C85153008DACC7 /* MindvalleyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +133,7 @@
 		77127BD223C8506A008DACC7 = {
 			isa = PBXGroup;
 			children = (
+				77127C0E23C850B6008DACC7 /* MindvalleyFramework.framework */,
 				77127BDD23C8506A008DACC7 /* MindvalleyAssignment */,
 				77127BF423C8506D008DACC7 /* MindvalleyAssignmentTests */,
 				77127BFF23C8506D008DACC7 /* MindvalleyAssignmentUITests */,
@@ -99,10 +154,11 @@
 		77127BDD23C8506A008DACC7 /* MindvalleyAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				77127BDE23C8506A008DACC7 /* AppDelegate.swift */,
-				77127BE023C8506A008DACC7 /* SceneDelegate.swift */,
-				77127BE223C8506A008DACC7 /* ViewController.swift */,
-				77127BE423C8506A008DACC7 /* Main.storyboard */,
+				77127C2B23C850FA008DACC7 /* View */,
+				77127C1823C850E9008DACC7 /* Model */,
+				77127C1523C850D8008DACC7 /* Resources */,
+				77127C1023C850C6008DACC7 /* API */,
+				77127C2F23C851AA008DACC7 /* Delegate */,
 				77127BE723C8506D008DACC7 /* Assets.xcassets */,
 				77127BE923C8506D008DACC7 /* LaunchScreen.storyboard */,
 				77127BEC23C8506D008DACC7 /* Info.plist */,
@@ -128,6 +184,71 @@
 			path = MindvalleyAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		77127C1023C850C6008DACC7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				777A64E523C9C15900E81DAA /* PinImageDownloadingRequest.swift */,
+				777A64E623C9C15900E81DAA /* PinImageDownloadingService.swift */,
+				77127C1223C850D0008DACC7 /* PinListRequest.swift */,
+				77127C1123C850D0008DACC7 /* PinListService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		77127C1523C850D8008DACC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77127C1623C850E1008DACC7 /* Constants.swift */,
+				777A64E923C9C24000E81DAA /* AllExtension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77127C1823C850E9008DACC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77127C1E23C850F2008DACC7 /* Category.swift */,
+				77127C1A23C850F2008DACC7 /* CategoryLinks.swift */,
+				77127C1923C850F2008DACC7 /* PinItemLinks.swift */,
+				77127C1B23C850F2008DACC7 /* PinItems.swift */,
+				77127C2023C850F2008DACC7 /* PinUrls.swift */,
+				77127C2123C850F2008DACC7 /* ProfileImage.swift */,
+				77127C1D23C850F2008DACC7 /* Title.swift */,
+				77127C1C23C850F2008DACC7 /* User.swift */,
+				77127C1F23C850F2008DACC7 /* UserLinks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77127C2B23C850FA008DACC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				777544C123C9B79D006CA47F /* Cell */,
+				77127BE423C8506A008DACC7 /* Main.storyboard */,
+				77127BE223C8506A008DACC7 /* ViewController.swift */,
+				777544C223C9BC5E006CA47F /* MindValleyBoardCustomLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77127C2F23C851AA008DACC7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				77127BDE23C8506A008DACC7 /* AppDelegate.swift */,
+				77127BE023C8506A008DACC7 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		777544C123C9B79D006CA47F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				777544BD23C9B798006CA47F /* PinItemCollectionViewCell.swift */,
+				777544BE23C9B798006CA47F /* PinItemCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +259,7 @@
 				77127BD723C8506A008DACC7 /* Sources */,
 				77127BD823C8506A008DACC7 /* Frameworks */,
 				77127BD923C8506A008DACC7 /* Resources */,
+				77127C2E23C85153008DACC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +357,7 @@
 				77127BEB23C8506D008DACC7 /* LaunchScreen.storyboard in Resources */,
 				77127BE823C8506D008DACC7 /* Assets.xcassets in Resources */,
 				77127BE623C8506A008DACC7 /* Main.storyboard in Resources */,
+				777544C023C9B798006CA47F /* PinItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +383,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				77127BE323C8506A008DACC7 /* ViewController.swift in Sources */,
+				77127C2423C850F2008DACC7 /* PinItems.swift in Sources */,
+				77127C2623C850F2008DACC7 /* Title.swift in Sources */,
+				777A64EA23C9C24000E81DAA /* AllExtension.swift in Sources */,
+				77127C2923C850F2008DACC7 /* PinUrls.swift in Sources */,
+				777544C323C9BC5E006CA47F /* MindValleyBoardCustomLayout.swift in Sources */,
+				77127C1423C850D0008DACC7 /* PinListRequest.swift in Sources */,
 				77127BDF23C8506A008DACC7 /* AppDelegate.swift in Sources */,
 				77127BE123C8506A008DACC7 /* SceneDelegate.swift in Sources */,
+				777544BF23C9B798006CA47F /* PinItemCollectionViewCell.swift in Sources */,
+				77127C2223C850F2008DACC7 /* PinItemLinks.swift in Sources */,
+				77127C2323C850F2008DACC7 /* CategoryLinks.swift in Sources */,
+				77127C1323C850D0008DACC7 /* PinListService.swift in Sources */,
+				777A64E823C9C15900E81DAA /* PinImageDownloadingService.swift in Sources */,
+				77127C2523C850F2008DACC7 /* User.swift in Sources */,
+				77127C1723C850E1008DACC7 /* Constants.swift in Sources */,
+				77127C2823C850F2008DACC7 /* UserLinks.swift in Sources */,
+				77127C2A23C850F2008DACC7 /* ProfileImage.swift in Sources */,
+				777A64E723C9C15900E81DAA /* PinImageDownloadingRequest.swift in Sources */,
+				77127C2723C850F2008DACC7 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +576,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AFBHHNX58G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MindvalleyAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +598,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AFBHHNX58G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MindvalleyAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,11 @@
+framework module MindvalleyFramework {
+  umbrella header "MindvalleyFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MindvalleyFramework.Swift {
+    header "MindvalleyFramework-Swift.h"
+    requires objc
+}
